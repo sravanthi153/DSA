@@ -1,0 +1,18 @@
+This is a math problem.
+1 = 1sq2
+121 = 11sq2
+12321 = 111sq3
+...
+... and so on.
+
+Now, of course, (int('1'*i))**2 could have worked, but we are not allowed to use strings. So, here is something else:
+1111 = 10pow0 +10pow1+10pow2+10pow3.
+
+These terms are the sums of a geometric series of form
+Using the formula to sum the geometric series, we get:
+sn = 
+So essentially, each line, we print .
+Here is the code.
+
+for i in range(1,int(input())+1):
+    print(((10**i-1)//9)**2)
